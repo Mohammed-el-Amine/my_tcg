@@ -26,6 +26,7 @@ class Dom extends EventManager {
     }
 
     getSide () {
+        console.log("hello from getSide")
         if (this.side === "") {
             return this.parent.getSide();
         } else {

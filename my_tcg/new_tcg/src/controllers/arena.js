@@ -28,6 +28,7 @@ export default class ArenaController extends Controller {
 
     onClickDeck (deck) {
         var s = deck.getSide();
+        console.log("s = ", s)
 
         var self = this;
         var cardState = this.game[s].draw();
